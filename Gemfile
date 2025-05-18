@@ -1,0 +1,6 @@
+title: Mi Tienda
+email: contacto@mitienda.com
+description: Una tienda sencilla hecha con Jekyll
+baseurl: "" 
+url: "http://localhost:4000"
+theme: null
