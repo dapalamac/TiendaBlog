@@ -212,4 +212,121 @@
       font-size: 1rem;
     }
   }
+
+/* PRODUCT PAGE */
+
+.product-page {
+  max-width: 900px;
+  margin: 40px auto 80px;
+  padding: 0 20px;
+}
+
+.product-hero {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  height: 420px;
+  box-shadow: 0 20px 50px rgba(245, 114, 36, 0.2);
+  margin-bottom: 40px;
+}
+
+.product-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.product-hero-overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+  color: white;
+}
+
+.product-hero-overlay h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin: 0 0 10px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.product-badge {
+  background-color: #f57224;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 6px 16px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.product-body {
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(245, 114, 36, 0.12);
+  padding: 40px;
+}
+
+.product-price-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #fef0e7;
+}
+
+.product-price-label {
+  font-size: 1rem;
+  color: #999;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.product-price-value {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #f57224;
+}
+
+.product-description {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.btn-comprar {
+  display: inline-block;
+  background-color: #f57224;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 16px 45px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(245, 114, 36, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-right: 20px;
+}
+
+.btn-comprar:hover {
+  background-color: #d44e00;
+  box-shadow: 0 10px 30px rgba(212, 78, 0, 0.6);
+}
+
+.back-link {
+  color: #f57224;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #d44e00;
+}
   
